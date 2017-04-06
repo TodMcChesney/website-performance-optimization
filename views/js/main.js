@@ -502,8 +502,13 @@ function updatePositions() {
   window.performance.mark("mark_start_frame");
 
   var items = document.querySelectorAll('.mover');
+
+  // Moved body.scrollTop property value into a variable outside of the for loop
+  // This fixed the forced synchronous layout problem
+  var elementScrollTop = document.body.scrollTop;
+
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
+    var phase = Math.sin((elementScrollTop / 1250) + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
