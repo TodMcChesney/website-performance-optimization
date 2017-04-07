@@ -73,9 +73,14 @@ header {
   padding: 0 0.5em;
   color: #C90B0B;
 }
+
+header a {
+  float: left;
+  display: block;
+}
+
 header img {
   border-radius: 40px;
-  float: left;
 }
 
 header p {
@@ -124,6 +129,12 @@ footer {
 footer span {
   float: right;
   font-style: italic;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media only screen and (max-width: 480px) {
