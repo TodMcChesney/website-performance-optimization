@@ -1,9 +1,15 @@
 # Website Performance Optimization Project
 
-The challenge was to optimize this online portfolio for speed! In
-particular, optimize the critical rendering path and make this page
-render as quickly as possible by applying the techniques taught in the
-[Critical Rendering Path course](https://www.udacity.com/course/ud884).
+The 1st challenge was to optimize this online portfolio for speed! In
+particular, optimize the critical rendering path and make the index.html
+page render as quickly as possible.
+
+The 2nd challenge was to optimize Cam's Pizzeria website. The goals
+where to resize the pizzas in less than 5ms and to achieve a smooth
+60fps when scrolling.
+
+To view the project clone or download the repo and open the index.html
+file in your browser.
 
 ## My Project Results
 
