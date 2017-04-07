@@ -433,7 +433,7 @@ var resizePizzas = function(size) {
     } else {
       console.log("bug in changePizzaSizes");
     }
-    var allRandomPizzas = document.querySelectorAll(".randomPizzaContainer");
+    var allRandomPizzas = document.getElementsByClassName("randomPizzaContainer");
     for (var i = 0; i < allRandomPizzas.length; i++) {
       allRandomPizzas[i].style.width = newSize + "%";
     }
