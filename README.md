@@ -15,6 +15,8 @@ file in your browser.
 
 ### Part 1: Optimize PageSpeed Insights score for index.html
 
+![screenshot](/screenshot-1.png)
+
 Here are the steps I took to optimize index.html:
 
 * Remove Google Font link
@@ -34,6 +36,8 @@ link to the live site:
 [https://todmcchesney.github.io/website-performance-optimization/](https://todmcchesney.github.io/website-performance-optimization/)
 
 ### Part 2: Optimize Frames per Second in pizza.html
+
+![screenshot](/screenshot-2.png)
 
 Here are the steps I took to optimize views/js/main.js for
 views/pizza.html:
